@@ -3,6 +3,8 @@
 # / /__/_  _// // / / __// // / / , _// -_) (_-</ -_) / _ \/ _  /  _/_ <      
 #/____/ /_/  \_,_/ /_/   \___/ /_/|_| \__/ /___/\__/ /_//_/\_,_/  /____/     
 #
+#importando o modulo
+import-module -Name VMware.VimAutomation.Core
 
 #Antes de rodar certifique que a vm pode ser desligada
 $vmname = Read-Host "Digite o nome da Vm"
